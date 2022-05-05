@@ -58,6 +58,7 @@ public class PhoneBook {
 
     public void clear() {
         number2Name.clear();
+        name2Number.clear();
         entries = 0;
     }
     
